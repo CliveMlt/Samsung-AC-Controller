@@ -36,33 +36,34 @@ python samsung_ac_controller.py
 ```
 
 ## Features
-1. List Devices
-Lists all Samsung Air Conditioners linked to your SmartThings account.
 
-2. Get Device Status
-Fetches and displays the current status of the specified Samsung Air Conditioner.
+**1. List Devices**
+   - Lists all Samsung Air Conditioners linked to your SmartThings account.
 
-3. Control Device (On/Off)
-Turns the Samsung Air Conditioner on or off.
+**2. Get Device Status**
+   - Fetches and displays the current status of the specified Samsung Air Conditioner.
 
-4. Change AC Mode
-Changes the mode of the Samsung Air Conditioner to one of the following: cool, dry, wind, auto, heat.
+**3. Control Device (On/Off)**
+   - Turns the Samsung Air Conditioner on or off.
 
-5. Set Temperature
-Sets the desired temperature for the Samsung Air Conditioner.
+**4. Change AC Mode**
+   - Changes the mode of the Samsung Air Conditioner to one of the following: cool, dry, wind, auto, heat.
 
-6. Set Fan Mode
-Sets the fan mode of the Samsung Air Conditioner to one of the following: auto, low, medium, high, turbo.
+**5. Set Temperature**
+   - Sets the desired temperature for the Samsung Air Conditioner.
+
+**6. Set Fan Mode**
+   - Sets the fan mode of the Samsung Air Conditioner to one of the following: auto, low, medium, high, turbo.
 
 ## Managing Devices with the Devices API
 Interact with the Devices API to access and control Samsung Air Conditioners integrated with the SmartThings platform. The Devices API allows you to control connected devices, access device metadata, and retrieve device states.
 
-Note: You will need a Personal Access Token (PAT) with the appropriate scopes to interact with the Devices API.
+**Note:** You will need a Personal Access Token (PAT) with the appropriate scopes to interact with the Devices API.
 
 Example Payload Using Postman
 This example demonstrates how to use the Postman app to send a GET request to a Samsung Air Conditioner where <deviceID> is the device ID of the Samsung Air Conditioner you want to retrieve info for.
 
-NOTE: In the Authorization tab of your GET request in Postman, select Bearer Token as your authorization type. Enter your PAT in the Token field.
+NOTE: In the Authorization tab of your GET request in Postman, select **Bearer Token** as your authorization type. Enter your **PAT** in the Token field.
 
 1. List Devices:
 ```bash
@@ -73,8 +74,6 @@ https://api.smartthings.com/v1/devices
 ```bash
 https://api.smartthings.com/v1/devices/<deviceID>
 ```
-
-
 
 ## Menu:
 1. List Devices
